@@ -1,0 +1,14 @@
+.pls,
+.nopls {
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.pls {
+    background-color: black;
+    color:white;
+}
+
+.nopls {
+    background-color: yellow;
+}
