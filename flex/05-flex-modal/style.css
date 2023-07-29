@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px;
+  gap:20px;
   display: flex;
 }
 /* altered flex shrink here */
@@ -74,7 +75,7 @@ button.cancel {
 /* push text and buttons away from icon */
 .container {
   justify-content: flex-start;
-  margin-left:20px;
+  /* margin-left:20px; */
 }
 /* get cancel button to wrap */
 .wrapper {
