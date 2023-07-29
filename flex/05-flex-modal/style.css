@@ -23,7 +23,7 @@ body {
   padding: 20px;
   display: flex;
 }
-
+/* altered flex shrink here */
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -71,12 +71,12 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
-
+/* push text and buttons away from icon */
 .container {
   justify-content: flex-start;
   margin-left:20px;
 }
-
+/* get cancel button to wrap */
 .wrapper {
   display: flex;
   align-items: center;
